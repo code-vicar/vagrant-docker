@@ -1,0 +1,15 @@
+{
+  "name": "vagrant-docker",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-vicar/vagrant-docker.git"
+  },
+  "author": "Scott Vickers <scott.w.vickers@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code-vicar/vagrant-docker/issues"
+  },
+  "homepage": "https://github.com/code-vicar/vagrant-docker#readme"
+}
