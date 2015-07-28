@@ -31,7 +31,7 @@ print_banner() {
 print_banner
 
 print_header "Add docker PPA"
-exec_cmd "curl -s https://get.docker.io/gpg | apt-key add -"
+exec_cmd "wget -qO- https://get.docker.io/gpg | apt-key add -"
 exec_cmd "echo deb http://get.docker.io/ubuntu docker main | tee /etc/apt/sources.list.d/docker.list"
 
 print_header "Install docker"
