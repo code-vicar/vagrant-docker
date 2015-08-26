@@ -1,15 +1,23 @@
 {
-  "name": "vagrant-docker",
+  "name": "@code-vicar/vagrant-docker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Adds a Vagrantfile and provisioning script for running docker to your project",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/code-vicar/vagrant-docker.git"
+  },
+  "bin": {
+    "vagrant-docker": "./cli.js"
   },
   "author": "Scott Vickers <scott.w.vickers@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/code-vicar/vagrant-docker/issues"
   },
-  "homepage": "https://github.com/code-vicar/vagrant-docker#readme"
+  "homepage": "https://github.com/code-vicar/vagrant-docker#readme",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "commander": "^2.8.1",
+    "fs-extra": "^0.23.1"
+  }
 }
