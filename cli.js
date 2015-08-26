@@ -13,6 +13,6 @@ cli
 
 var dir = (cli.directory) ? cli.directory : '';
 
-fs.copyAsync('./Vagrantfile', dir + '/Vagrantfile').catch(function (err) {
+fs.copyAsync('./Vagrantfile', path.resolve(path.join(dir, './Vagrantfile'))).catch(function (err) {
   console.error(err);
 });
