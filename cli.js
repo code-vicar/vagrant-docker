@@ -4,9 +4,10 @@ var cli = require('commander');
 var path = require('path');
 var BBPromise = require('bluebird');
 var fs = BBPromise.promisifyAll(require('fs-extra'));
+var pkg = require('./package.json');
 
 cli
-  .version('0.0.1')
+  .version(pkg.version)
   .description('Installs a docker provisioned vagrantfile in current (or target) directory')
   .option('-d, --directory <dir>', 'Target directory')
   .parse(process.argv);
