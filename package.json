@@ -9,6 +9,7 @@
   "bin": {
     "vagrant-docker": "./cli.js"
   },
+  "main": "index.js",
   "author": "Scott Vickers <scott.w.vickers@gmail.com>",
   "license": "MIT",
   "bugs": {
