@@ -1,6 +1,6 @@
 {
   "name": "@code-vicar/vagrant-docker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds a Vagrantfile and provisioning script for running docker to your project",
   "repository": {
     "type": "git",
